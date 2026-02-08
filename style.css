@@ -1,0 +1,60 @@
+body {
+  background:#594463 ;
+}
+p {
+  color:white;
+  font-family: monospace;
+}
+h1 {
+  font-family: monospace;
+  color: darkgray;
+  font-weight: bold;
+}
+div{
+  border-style: solid;
+  padding:25px;
+  border-radius: 20px;
+  border-color: #4ad2d6
+}
+li{
+  font-family: monospace;
+  color:lime;
+}
+a{
+  font-family: monospace;
+  color:lime;
+
+}
+#games{
+  font-family: cursive;
+}
+#title:hover{
+  color: powderblue;
+}
+#games:hover{
+  color: powderblue;
+}
+#title:hover{
+  animation: fadingcolors 1s infinite;
+
+}
+@keyframes rotate{
+  0%{transform: rotate(-50deg);}
+  25%{transform: rotate(-25deg);}
+  50%{transform: rotate(0deg);}
+  75%{transform: rotate(25deg);}
+  100%{transform: rotate(50deg);}
+}
+#clickme:active{
+  animation: rotate 2s infinite;
+}
+@keyframes fadingcolors{
+  0%{opacity:1;}
+  50%{opacity: 0.3;}
+  100%{opacity: 0;}
+}
+p{
+  animation:backInRight;
+  animation-duration: 1.5s;
+}
+
